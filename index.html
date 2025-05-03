@@ -4,11 +4,22 @@
 </head>
 <body>
 <h1>ℂ𝕙𝕚𝕔𝕜𝕖𝕟𝕊𝕖𝕒𝕣𝕔𝕙</h1>
-  <div id="type"></div>
+  <div id="typewriter"></div>
 
-<script src="type.js">
-</script>
-  <script src="https://unpkg.com/typewriter-effect@2.3.1/dist/core.js">
+  <script>
+    const text = "Browse the Web Safely and in Style with ChickenSearch";
+    const speed = 100; 
+    let i = 0;
+
+    function type() {
+      if (i < text.length) {
+        document.getElementById("typewriter").textContent += text.charAt(i);
+        i++;
+        setTimeout(type, speed);
+      }
+    }
+
+    type();
   </script>
 </body>
 </html>
