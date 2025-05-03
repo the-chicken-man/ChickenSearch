@@ -4,7 +4,7 @@
 </head>
 <body>
 <h1>ℂ𝕙𝕚𝕔𝕜𝕖𝕟𝕊𝕖𝕒𝕣𝕔𝕙</h1>
-  <p id="typewriter"></p>
+  <p id="typewritereffect"></p>
 
 
   <script>
@@ -14,7 +14,7 @@
 
     function type() {
       if (i < text.length) {
-        document.getElementById("typewriter").textContent += text.charAt(i);
+        document.getElementById("typewritereffect").textContent += text.charAt(i);
         i++;
         setTimeout(type, speed);
       }
