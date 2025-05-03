@@ -10,6 +10,7 @@ h1 {
 }
 
 p {
+   color: blue;
   font-family: courier;
    text-align: center;
 }
