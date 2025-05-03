@@ -1,0 +1,15 @@
+body {
+  background-color: black;
+  padding: 20%;
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+   font-family: courier;
+}
+
+p {
+  font-family: courier;
+   text-align: center;
+}
