@@ -14,3 +14,8 @@ p {
   font-family: courier;
    text-align: center;
 }
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
